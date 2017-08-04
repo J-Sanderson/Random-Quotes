@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* fallback */
+  background-color: #1a82f7;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient( to bottom, #74BBFB, #000033);
+  background: -moz-linear-gradient( to bottom, #74BBFB, #000033);
+  background: -ms-linear-gradient( to bottom, #74BBFB, #000033);
+  background: -o-linear-gradient( to bottom, #74BBFB, #000033);
+  background: linear-gradient( to bottom, #74BBFB, #000033);
+  font-family:arial, sans-serif;
+}
+
+#quote {
+  border: 1px solid #BBFFFF;
+  border-radius: 5px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding: 0px 10px 0px 10px;
+  background-color: rgba(187, 255, 255, 0.5);
+}
+
+button {
+  border: 1px solid #BBFFFF;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  display:block;
+  padding: 10px;
+  background-color: rgba(187, 255, 255, 0.5);
+  box-shadow: 0px 3px 5px #000033;
+  cursor:pointer;
+}
+
+button:active {
+  box-shadow:0px 0px 5px #000000;
+}
+
+@media screen and (max-width: 500px) {
+  #quote {
+    width:90%;
+  }
+}
